@@ -5,7 +5,7 @@
     
     <Grid Name="primaryWindow" Background="WhiteSmoke">
 
-        <Grid Height="100" Margin="0,0,0,592.5">
+        <Grid  Margin="0,0,0,592.5">
             <Grid.RowDefinitions>
                 <RowDefinition/>
             </Grid.RowDefinitions>
@@ -14,11 +14,10 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Content="Home" Grid.Row="0" Grid.Column="0"/>
+            <Button  Content="Home" Grid.Row="0" Grid.Column="0"/>
             <Button Content="Find" Grid.Row="0" Grid.Column="1"/>
             <Button Content="Add" Grid.Row="0" Grid.Column="2"/>
         </Grid>
-
 
 
 
